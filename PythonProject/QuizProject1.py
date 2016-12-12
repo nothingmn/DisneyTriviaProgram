@@ -17,11 +17,6 @@ while playing == True:
     numberQuest = int(input("Are you up for answering 100 questions about Disney movies? If so type 100 and if not how many questions would you like to answer?"))
 
     
-#shuffle(lines)
-#right = 0
-#wrong = []
-
-#numberQuest = int(input("Are you up for answering 100 questions about Disney movies? If so type 100 and if not how many questions would you like to answer?"))
 
     for l in lines[:numberQuest]:
         question, rightAns = l.strip().split("\t")
